@@ -1,0 +1,5 @@
+projectID: your-project-id
+topicName: your-topic-name
+subscriptionName: your-subscription-name
+sleepIntervalSeconds: 10
+maxOutstandingMessages: 1
