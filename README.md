@@ -2,7 +2,8 @@
 
 This is a synchronous pull client for Google Cloud Pub/Sub.
 
-https://cloud.google.com/pubsub/docs/overview
+- https://cloud.google.com/pubsub/docs/overview
+- https://cloud.google.com/pubsub/docs/samples/pubsub-subscriber-sync-pull
 
 I created this program because I wanted to easily check if the expected data was stored in Google Cloud Pub/Sub.
 
