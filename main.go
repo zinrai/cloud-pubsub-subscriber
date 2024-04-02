@@ -86,7 +86,7 @@ func main() {
 
 func receiveMessages(ctx context.Context, sub *pubsub.Subscription, config Config) {
         err := sub.Receive(ctx, func(ctx context.Context, msg *pubsub.Message) {
-                log.Printf("Got message from topic %s: %s\n", config.TopicName, string(msg.Data))
+                log.Printf("topic %s: %s\n", config.TopicName, string(msg.Data))
                 msg.Ack()
                 time.Sleep(time.Duration(config.SleepIntervalSecond) * time.Second)
         })

@@ -33,7 +33,7 @@ EOF
 
 ```
 $ go run main.go
-2024/03/27 04:11:41 Got message from topic k8s-test: {"insertId":"kouohof73vq2t3yp","labels":{"compute.googleapis.com/resource_name":"gke-k8s-test-k8s-test-0ab12345-c6de","k8s-pod/app_kubernetes_io/component":"gateway","k8s-pod/app_kubernetes_io/instance":"loki","k8s-pod/app_kubernetes_io/name":"loki","k8s-pod/pod-template-hash":"79fd9fbdbd"},"logName":"projects/project-01234567/logs/stderr","receiveTimestamp":"2024-03-27T04:09:19.869384123Z","resource":{"labels":{"cluster_name":"k8s-test","container_name":"nginx","location":"asia-northeast1-b","namespace_name":"test-ns","pod_name":"loki-gateway-79fd9fbdbd-rhhhg","project_id":"project-01234567"},"type":"k8s_container"},"severity":"ERROR","textPayload":"192.0.2.10 - - [27/Mar/2024:04:09:18 +0000] 200 \"GET / HTTP/1.1\" 2 \"-\" \"kube-probe/1.27\" \"-\"","timestamp":"2024-03-27T04:09:18.053557179Z"}
+2024/03/27 04:11:41 topic k8s-test: {"insertId":"kouohof73vq2t3yp","labels":{"compute.googleapis.com/resource_name":"gke-k8s-test-k8s-test-0ab12345-c6de","k8s-pod/app_kubernetes_io/component":"gateway","k8s-pod/app_kubernetes_io/instance":"loki","k8s-pod/app_kubernetes_io/name":"loki","k8s-pod/pod-template-hash":"79fd9fbdbd"},"logName":"projects/project-01234567/logs/stderr","receiveTimestamp":"2024-03-27T04:09:19.869384123Z","resource":{"labels":{"cluster_name":"k8s-test","container_name":"nginx","location":"asia-northeast1-b","namespace_name":"test-ns","pod_name":"loki-gateway-79fd9fbdbd-rhhhg","project_id":"project-01234567"},"type":"k8s_container"},"severity":"ERROR","textPayload":"192.0.2.10 - - [27/Mar/2024:04:09:18 +0000] 200 \"GET / HTTP/1.1\" 2 \"-\" \"kube-probe/1.27\" \"-\"","timestamp":"2024-03-27T04:09:18.053557179Z"}
 ```
 
 ## License
